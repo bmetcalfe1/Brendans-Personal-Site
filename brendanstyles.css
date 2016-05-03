@@ -1,0 +1,36 @@
+div {
+    position: relative;  
+    color: #004d00;
+    font-size: 40px;
+}
+
+div span {
+    height: 50%;
+    position: absolute;
+    color: black;
+    overflow: hidden;  
+}
+
+.site-header {
+	background: #3f51b5;
+	color: #fff;
+	padding: 20px 5%; 
+}
+
+.site-header h1 {
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+    background-color: #80ffcc;
+}
+
+footer {
+	text-align: center;
+}
