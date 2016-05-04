@@ -1,13 +1,13 @@
 div {
     position: relative;  
-    color: #004d00;
+    color: #80ffcc;
     font-size: 40px;
 }
 
 div span {
     height: 50%;
     position: absolute;
-    color: black;
+    color: #ffe6e6;
     overflow: hidden;  
 }
 
