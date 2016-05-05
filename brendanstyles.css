@@ -23,6 +23,21 @@ div span {
 	text-align: center;
 }
 
+.main-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav ul li {
+	display: inline;
+}
+
+.main-nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
 h2 {
 	text-align: center;
 }
