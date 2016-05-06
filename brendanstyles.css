@@ -1,3 +1,17 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 div {
     position: relative;  
     color: #80ffcc;
@@ -21,6 +35,11 @@ div span {
 	margin: 0;
 	font-size: 20px;
 	text-align: center;
+	float: left;
+}
+
+.main-nav {
+	float: right;
 }
 
 .main-nav ul {
