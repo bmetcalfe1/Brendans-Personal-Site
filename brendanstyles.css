@@ -65,6 +65,28 @@ body {
     background-color: #80ffcc;
 }
 
+.billboard {
+	background: #ccc;
+	text-align: center; 
+	padding: 40px;
+}
+
+.billboard h2 {
+	margin-top: 0;
+}
+
+.main-col{
+	float: left;
+	width: 70%;
+}
+
+.sidebar-col{
+	background: #ccc;
+	float: right;
+	width: 25%;
+	padding: 20px 2.5%;
+}
+
 footer {
-	text-align: center;
+	text-align: left;
 }
