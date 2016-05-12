@@ -28,7 +28,7 @@ div span {
 .site-header {
 	background: #3f51b5;
 	color: #fff;
-	padding: 20px 5%; 
+	padding: 30px 5%; 
 }
 
 .site-header h1 {
@@ -54,11 +54,11 @@ div span {
 
 .main-nav ul li a {
 	text-decoration: none;
-	color: #fff;
+	color: #FFF;
 }
 
-h2 {
-	text-align: center;
+.into-text{
+	font-size: 18px;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 }
 
 .billboard {
-	background: #ccc;
+	background: #CCC;
 	text-align: center; 
 	padding: 40px;
 }
@@ -75,18 +75,35 @@ body {
 	margin-top: 0;
 }
 
+.column-wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
 .main-col{
 	float: left;
 	width: 70%;
+	color: black;
+}
+
+h4 {
+	color: black;
 }
 
 .sidebar-col{
 	background: #ccc;
+	color: #fff;
 	float: right;
 	width: 25%;
-	padding: 20px 2.5%;
+	padding: 5px 2%;
 }
 
-footer {
-	text-align: left;
+.main-footer {
+	background-color: #ccc;
+	color: #FFF;
+	padding: 40px 5%; 
+}
+
+.copywrite {
+	float: left;
 }
